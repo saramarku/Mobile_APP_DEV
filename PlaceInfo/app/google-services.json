@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34864490435",
+    "firebase_url": "https://placeinfo-662b9.firebaseio.com",
+    "project_id": "placeinfo-662b9",
+    "storage_bucket": "placeinfo-662b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34864490435:android:9856538464734d10",
+        "android_client_info": {
+          "package_name": "com.example.sara__000.placeinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34864490435-ho4ot941ndqfvcfg9516lqf2kjuudam2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sara__000.placeinfo",
+            "certificate_hash": "36c7698772de4e455db12ea939a4d7772a52bcd0"
+          }
+        },
+        {
+          "client_id": "34864490435-h4a274e5okmfpk61leqnlj6rhjei6eb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3W12FN8jyUGGTPlFngCDW0SKNJrWUzdc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34864490435-h4a274e5okmfpk61leqnlj6rhjei6eb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

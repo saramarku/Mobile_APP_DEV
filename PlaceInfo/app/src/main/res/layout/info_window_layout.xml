@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+
+    android:background="@drawable/circle_window"
+
+    android:padding="15dp"
+    android:weightSum="1">
+
+    <ImageView
+
+        android:id="@+id/ivInfoWindowMain"
+
+        android:layout_width="56dp"
+
+        android:layout_height="59dp"
+
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+
+        android:adjustViewBounds="true"
+
+        android:src="@drawable/globe">
+
+    </ImageView>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="143dp"
+
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+
+            android:id="@+id/txtInfoWindowTitle"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+
+            android:ellipsize="end"
+
+            android:textColor="#ff000000"
+            android:text="Hello"
+
+            android:textSize="20dp"
+
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:id="@+id/txtInfoTitle"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="TUU"
+
+            android:ellipsize="end"
+
+            android:singleLine="true"
+
+            android:textColor="#ff000000"
+
+            android:textSize="20dp"
+
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:id="@+id/txtInfoWindowDescription"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:ellipsize="end"
+            android:text="Description"
+
+            android:textColor="#000000"
+
+
+            android:textSize="20dp"/>
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.1" />
+
+    </LinearLayout>
+
+</LinearLayout>
